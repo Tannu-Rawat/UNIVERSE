@@ -1,11 +1,9 @@
-### GitHub README for UniVerse (with UniChat Integration)
-
----
 
 # UniVerse 🌌  
 **Your go-to platform for IGDTUW communications, collaborations, and resources**  
 
-UniVerse is a web-based portal designed to simplify access to resources, portals, and events for students and faculty of IGDTUW. It integrates various functionalities, including a chat system (UniChat) built using Next.js, making collaboration effortless.  
+UniVerse is a web-based portal designed to simplify access to resources, portals, and events for students and faculty of IGDTUW. It integrates various functionalities, including a chat system (UniChat) built using Next.js, making collaboration effortless.
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160336.png)
 
 ---
 
@@ -62,7 +60,7 @@ UniVerse is a web-based portal designed to simplify access to resources, portals
 - **MongoDB**: Serves as the database for storing user information and chat histories.
 - **Node.js**: Backend runtime environment for building scalable, real-time messaging functionality.
 
-### **Indira (Chatbot with NLP)**  
+### **Indu (Chatbot with NLP)**  
 - **Python**: The primary language for building the NLP chatbot.  
 - **Natural Language Processing (NLP)**:  
   - **Attributes**: Handles *categories*, *subcategories*, and *responses*.  
@@ -74,6 +72,24 @@ UniVerse is a web-based portal designed to simplify access to resources, portals
 ---
 
 ## Project Images
+
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160336.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160545.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160643.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160717.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160559.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160744.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160751.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160806.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160858.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20161143.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20161152.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20161203.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20161210.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20161229.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20161237.png)
+
+
 
 ---
 
@@ -168,6 +184,6 @@ Here's how to run the **UniChat** (Messenger Clone) and **Aindu** projects on yo
 This project is licensed under the MIT License.  
 
 ---
-
+## Thank You :)
 
 
