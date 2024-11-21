@@ -74,6 +74,7 @@ UniVerse is a web-based portal designed to simplify access to resources, portals
 ## Project Images
 
 ![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160336.png)
+![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160408.png)
 ![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160545.png)
 ![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160643.png)
 ![Screenshot](https://github.com/Tannu-Rawat/UNIVERSE/blob/main/Screenshot%202024-11-12%20160717.png)
