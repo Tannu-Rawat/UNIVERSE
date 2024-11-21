@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/planet.png" type="image/png">
+    <title>Resources Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="resources.css" />
+    <script>
+        // JavaScript to toggle subject list visibility
+        function toggleSubjects(semesterId) {
+            const subjectList = document.getElementById(semesterId);
+            subjectList.style.display = subjectList.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>AIML'27</h1>
+
+    <div class="container">
+        <!-- Semester 1 -->
+        <div class="semester-box" onclick="toggleSubjects('sem1')">
+            <h2>Semester 1</h2>
+            <ul class="subjects" id="sem1">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+
+        <!-- Repeat for other semesters, adjusting IDs for unique toggle function -->
+        <div class="semester-box" onclick="toggleSubjects('sem2')">
+            <h2>Semester 2</h2>
+            <ul class="subjects" id="sem2">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+
+        <!-- Continue adding semesters similarly -->
+        <!-- ... other semesters here ... -->
+        <div class="semester-box" onclick="toggleSubjects('sem3')">
+            <h2>Semester 3</h2>
+            <ul class="subjects" id="sem3">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">DBMS</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1N6RxXUa4qIg3S90CPQrn89MZ-xKaka0z" target="_blank">Software Engineering</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Discrete Structures</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Artificial Intelligence</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Material Science</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Numerical Methods</a></li>
+            </ul>
+        </div>
+
+        <div class="semester-box" onclick="toggleSubjects('sem4')">
+            <h2>Semester 4</h2>
+            <ul class="subjects" id="sem4">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+
+
+        <div class="semester-box" onclick="toggleSubjects('sem5')">
+            <h2>Semester 5 </h2>
+            <ul class="subjects" id="sem5">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+
+
+        <div class="semester-box" onclick="toggleSubjects('sem6')">
+            <h2>Semester 6</h2>
+            <ul class="subjects" id="sem6">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+
+
+        <div class="semester-box" onclick="toggleSubjects('sem7')">
+            <h2>Semester 7</h2>
+            <ul class="subjects" id="sem7">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+
+        <!-- Example of Semester 8 -->
+        <div class="semester-box" onclick="toggleSubjects('sem8')">
+            <h2>Semester 8</h2>
+            <ul class="subjects" id="sem8">
+                <li><a href="https://drive.google.com/link-to-subject1" target="_blank">Subject 1</a></li>
+                <li><a href="https://drive.google.com/link-to-subject2" target="_blank">Subject 2</a></li>
+                <li><a href="https://drive.google.com/link-to-subject3" target="_blank">Subject 3</a></li>
+                <li><a href="https://drive.google.com/link-to-subject4" target="_blank">Subject 4</a></li>
+                <li><a href="https://drive.google.com/link-to-subject5" target="_blank">Subject 5</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

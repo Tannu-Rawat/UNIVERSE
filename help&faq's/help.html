@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="icon" href="../assets/planet.png" type="image/png">
+    <title>Help & FAQ</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Dark Theme Background */
+        body {
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .custom-title {
+            color: #ffffff !important;
+            font-family: "Poppins", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+
+        /* Heading */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* FAQ Container */
+        .faq-container {
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 2rem;
+        }
+
+        /* Collapsible FAQ Items */
+        .faq-item {
+            background-color: #162447;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-question {
+            background-color: #0d6efd;
+            color: #e0e0e0;
+            padding: 20px 25px;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 20px 25px;
+            color: #b0b0b0;
+        }
+
+        .faq-answer.show {
+            display: block;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background-color: #162447;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .contact-form h2 {
+            color: #007bff;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #007bff;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            resize: none;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #00aaff;
+        }
+
+        .submit-button {
+            background-color: #007bff;
+            color: #e0e0e0;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+    <script>
+        // JavaScript for FAQ collapse
+        function toggleAnswer(faqId) {
+            const answer = document.getElementById(faqId);
+            answer.classList.toggle("show");
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis custom-title">Help & Support</h1>
+
+
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4" style=" font-family: Poppins, serif;
+            font-weight: 200;
+            font-style: normal; 
+            ">Welcome to UniVerse Help & Support!<br>
+            We built this site with students in mind—by students, for students. Here you will find answers to common questions and
+            resources to help you make the most of UniVerse. If your question is not answered below, feel free to reach out through
+            our contact form or give feedback. We are here to make your academic journey easier!</p>
+            
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="../assets/Screenshot 2024-11-11 130006.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                    width="700" height="500" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <h2 style="color: #ffffff; font-family: Poppins, serif;
+            font-weight: 700;
+            font-style: normal; ">Commonly Faced Doubts</h2>
+
+    <div class="faq-container">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer('faq1')">Can I chat privately with a specific student or professor?
+</div>
+            <div class="faq-answer" id="faq1">
+                <p>Yes, the chat application allows you to chat one-on-one with any student or professor registered on the platform. Just
+                search for their name and start a conversation instantly.
+</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer('faq2')">What features are available in the group chat?
+</div>
+            <div class="faq-answer" id="faq2">
+                <p>Group chats can be used for class discussions, project collaborations, or club activities. You can share messages,
+                files, and resources within the group. The chat history is accessible to all group members, even if they join later, so
+                everyone stays informed.
+</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer('faq3')">How can I get help or information about the college through the app?
+</div>
+            <div class="faq-answer" id="faq3">
+                <p>You can use our built-in chatbot to get quick answers regarding college information, such as academic schedules, campus
+                events, or details about specific resources. Just type your question, and the chatbot will assist you!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2 style="color: #ffffff; font-family: Poppins, serif;
+            font-weight: 700;
+            font-style: normal; 
+            font-weight: 700;
+            ">Contact Support</h2>
+        <form>
+            <div class="form-group">
+                <label for="name" style=" font-family: Poppins, serif;
+            font-weight: 300;
+            font-style: normal; 
+            ">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" style=" font-family: Poppins, serif;
+            font-weight: 300;
+            font-style: normal; 
+            ">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message" style=" font-family: Poppins, serif;
+            font-weight: 300;
+            font-style: normal; 
+            ">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
